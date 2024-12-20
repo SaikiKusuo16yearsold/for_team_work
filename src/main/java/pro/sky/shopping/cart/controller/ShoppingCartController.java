@@ -32,4 +32,9 @@ public class ShoppingCartController {
         return "Hello World";
     }
 
+    @GetMapping(path = "/bye")
+    public String buyProduct() {
+        return "Goodbye World";
+    }
+
 }
