@@ -23,8 +23,13 @@ public class ShoppingCartController {
     }
 
     @GetMapping(path = "/get")
-    public Set<Integer> getProducts(){
+    public Set<Integer> getProducts() {
         return shoppingCartServiceImpl.getShoppingCatrs();
+    }
+
+    @GetMapping(path = "/hello")
+    public String getProduct() {
+        return "Hello World";
     }
 
 }
