@@ -29,16 +29,16 @@ public class ShoppingCartController {
 
     @GetMapping(path = "/hello")
     public String getProduct() {
-        return "Hello man";
+        return "Hello nigga";
     }
 
     @GetMapping(path = "/bye")
     public String buyProduct() {
-        return "Goodbye man";
+        return "Goodbye nigga";
     }
 
     @GetMapping(path = "/good afternoon")
     public String goodAfternoon() {
-        return "Goodbye man";
+        return "Goodbye nigga";
     }
 }
