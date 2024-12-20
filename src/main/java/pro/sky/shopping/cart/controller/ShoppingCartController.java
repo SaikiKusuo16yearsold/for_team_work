@@ -37,4 +37,8 @@ public class ShoppingCartController {
         return "Goodbye World";
     }
 
+    @GetMapping(path = "/good afternoon")
+    public String goodAfternoon() {
+        return "Goodbye Afternoon";
+    }
 }
