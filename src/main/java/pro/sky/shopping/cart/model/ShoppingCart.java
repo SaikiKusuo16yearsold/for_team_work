@@ -17,6 +17,7 @@ public class ShoppingCart {
             shopingCatrs.add(number);
         });
 
+
     }
 
     public Set<Integer> getShopingCatrs() {
